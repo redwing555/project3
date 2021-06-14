@@ -1,5 +1,5 @@
 body {
-    font-family: 'nunito';
+    font-family:  sans-serif;
     color: white;
     background-color: rgb(31, 16, 16);
     line-height: 1.4;
@@ -7,7 +7,7 @@ body {
   }
 
 
-#nav-bar {
+#navbar {
     position: fixed;
     height: 100%;
     min-width: 300px;
@@ -23,14 +23,14 @@ body {
   }
 
 
-#nav-bar header {
+#navbar header {
     color: black;
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
   }
 
-#nav-bar li {
+#navbar li {
     list-style: none;
     padding: 5px 0px;
     position: relative;
@@ -38,7 +38,7 @@ body {
   }
   
   
-#nav-bar a {
+#navbar a {
     color: gray;
     text-decoration: none;
   }
@@ -70,3 +70,22 @@ body {
     font-size: 30px;
     letter-spacing: 20px;
   }
+
+  @media only screen and (max-width: 800px) 
+{
+
+
+  #navbar {
+  position: absolute;
+  height: 1300px;
+  
+  
+  top: 0px;
+  margin-top: 35px; 
+  left: 0px;
+
+  color: black;
+  background-color: white;
+  }
+ 
+}
